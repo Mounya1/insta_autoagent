@@ -1,4 +1,4 @@
-# AI-Powered Instagram Marketing Automation
+# AI Autonomous Brand Growth Agent
 
 An intelligent Instagram automation system combining **SDXL image generation**, **LLaMA captions**, and **real-time DM responses** to create and manage social media content at scale.
 ##  Features
