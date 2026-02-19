@@ -153,7 +153,7 @@ git push heroku main
 
 **AI:** PyTorch • SDXL • LLaMA 2 • Transformers
 
-**Backend:** Flask • Python 3.10+ • Gunicorn
+**Backend:** Flask • Python 3.10+ • ngrok
 
 **APIs:** Instagram Graph API • Cloudinary • Pinecone
 
