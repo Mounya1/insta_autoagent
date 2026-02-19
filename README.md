@@ -131,15 +131,6 @@ Run cells 1-14, then: `tier2.run(num_posts=3)`
 
 ---
 
-##  Deployment
-
-### Heroku
-
-```bash
-heroku create your-app
-heroku config:set INSTAGRAM_ACCESS_TOKEN=your_token
-git push heroku main
-```
 
 ### Railway
 
