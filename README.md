@@ -237,7 +237,7 @@ aws cloudwatch get-metric-statistics \
 
 ---
 
-## 🎓 Tech Stack
+##  Tech Stack
 
 **Serverless:**
 - AWS Lambda
