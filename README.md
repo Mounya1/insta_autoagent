@@ -258,20 +258,4 @@ aws cloudwatch get-metric-statistics \
 **Languages:**
 - Python 3.10+
 
----
 
-
-
-
-
-
-
-
-
-
-
-
-- **Cost**: $0/month (AWS free tier)
-- **Scalability**: Automatic (AWS Lambda)
-
----
