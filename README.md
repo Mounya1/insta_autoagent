@@ -5,6 +5,7 @@ An intelligent Instagram automation system combining **SDXL image generation**, 
 
 ###  AI Content Generation
 - **SDXL Image Generation**: Professional product photos using Stable Diffusion XL
+- **Zero Server Management**: Runs on AWS Lambda
 - **LLaMA Captions**: AI-powered engaging Instagram captions
 - **Automated Posting**: Publishes content to Instagram automatically
 - **Budget Management**: Tracks spending and post limits
@@ -28,20 +29,22 @@ An intelligent Instagram automation system combining **SDXL image generation**, 
 
 ```
 instagram-ai-agent/
-├── app.py                 # Auto-DM webhook server
-├── autoagent.ipynb       # Content generation notebook
-├── requirements.txt      # Dependencies
-├── .env.example         # Environment template
-├── .gitignore          # Git ignore rules
-└── README.md           # Documentation
+├── lambda_handler.py        # AWS Lambda serverless function
+├── autoagent.ipynb          # Content generation notebook
+├── requirements-lambda.txt  # Lambda dependencies
+├── .env                    # Environment template
+├── .gitignore              # Git ignore rules
+└── README.md               # Documentation
 ```
+
 
 ---
 
 ##  Quick Start
 
 ### Prerequisites
-
+- AWS Account
+- AWS CLI installed and configured
 - Python 3.10+
 - CUDA GPU (recommended)
 - Instagram Business Account
@@ -129,14 +132,6 @@ Run cells 1-14, then: `tier2.run(num_posts=3)`
 - DM Response: <1 second
 - Handles 1000+ DMs/day
 
----
-
-
-### Railway
-
-1. Connect GitHub repo
-2. Add environment variables
-3. Deploy
 
 ---
 
