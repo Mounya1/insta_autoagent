@@ -344,22 +344,7 @@ AI that generates product images and captions, then posts to Instagram
 
 
 
-##  Complete Setup Summary
 
-### What You Have Now:
-
-**Auto-DM Bot:**
-- ✅ Runs on AWS Lambda (serverless)
-- ✅ Responds to DMs in <1 second
-- ✅ Handles unlimited messages
-- ✅ Works 24/7 automatically
-
-**Auto-Post Bot:**
-- ✅ Runs on Kaggle (free GPU)
-- ✅ Generates AI images (SDXL)
-- ✅ Generates AI captions (LLaMA)
-- ✅ Posts to Instagram
-- ✅ You control when to post
 
 ---
 
